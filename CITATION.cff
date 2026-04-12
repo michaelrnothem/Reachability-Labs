@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: Constructive Accessibility Instrument
+message: "If you use this software or measurement protocol, please cite the associated paper and this repository."
+type: software
+authors:
+  - family-names: Nothem
+    given-names: Michael Richard
+license: Apache-2.0
+version: 0.3.0
+url: "https://reachabilitylabs.org"
+abstract: >-
+  The Constructive Accessibility Instrument (CAI) is a small public reference
+  implementation for measuring constructive accessibility in forward processes.
+  It ships with a flagship random 3-SAT adapter, an experimental graph-coloring
+  adapter, and utilities for success curves, hazard profiles, variance
+  decomposition, and existence–reachability gap profiles.
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Nothem
+      given-names: Michael Richard
+  title: >-
+    Constructive Accessibility from Committed Prefixes in Random 3-SAT:
+    A Kinetic Transition in Reachable Future Under Forward Irreversible
+    Construction
+  year: 2026
+  doi: "10.5281/zenodo.19225548"
+  url: "https://reachabilitylabs.org"

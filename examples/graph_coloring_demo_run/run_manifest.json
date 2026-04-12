@@ -1,0 +1,26 @@
+{
+  "_framework": "Constructive Accessibility Instrument v0.3",
+  "_framework_tag": "Nothem Constructive Accessibility Instrument v0.3",
+  "_citation": "If you use this instrument or measurement framing, please cite: M.R. Nothem (2026), Constructive Accessibility from Committed Prefixes in Random 3-SAT.",
+  "_usage_notice": "Copyright 2026 Michael R. Nothem / Reachability Labs. Licensed under the Apache License, Version 2.0. See NOTICE file for attribution requirements. https://reachabilitylabs.org",
+  "_generated_utc": "2026-04-09T18:14:48.497775+00:00",
+  "adapter": "graph_coloring",
+  "config": {
+    "n": 60,
+    "alphas": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ],
+    "trials": 18,
+    "branches_per_instance": 3,
+    "pool_size": 48,
+    "exact_local": true,
+    "base_seed": 7
+  },
+  "results": 108,
+  "sampled_mode_note": "default exact-local mode"
+}

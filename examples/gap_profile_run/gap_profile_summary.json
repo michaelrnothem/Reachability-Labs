@@ -1,0 +1,13 @@
+{
+  "_framework": "Reachability Labs Constructive Accessibility Demo v0.2",
+  "_framework_tag": "Nothem Constructive Accessibility Protocol v0.2",
+  "_citation": "If you use this demo or measurement framing, please cite: M.R. Nothem (2026), Constructive Accessibility from Committed Prefixes in Random 3-SAT.",
+  "_usage_notice": "Copyright 2026 Michael R. Nothem / Reachability Labs. Licensed under the Apache License, Version 2.0. See NOTICE file for attribution requirements. https://reachabilitylabs.org",
+  "_generated_utc": "2026-03-17T08:03:50.333884+00:00",
+  "kind": "gap_profile_summary",
+  "midpoint_gap": 2.730102235009286,
+  "peak_gap": 2.8836856118383607,
+  "peak_level": 0.06868013,
+  "area": 2.5065171729095894,
+  "centroid": 0.5215549318456979
+}

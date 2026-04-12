@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "constructive-accessibility-instrument"
+version = "0.3.0"
+description = "Reference implementation of the Constructive Accessibility Instrument for measuring constructive accessibility in forward processes"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+authors = [
+  {name = "Michael Richard Nothem"},
+]
+dependencies = [
+  "numpy>=1.24",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://reachabilitylabs.org"
+Paper = "https://doi.org/10.5281/zenodo.19225548"
+Artifacts = "https://reachabilitylabs.org/artifacts"
+
+[project.scripts]
+cai-ksat-demo = "reachability_labs_demo.tools.run_ksat_demo:main"
+cai-graph-color-demo = "reachability_labs_demo.tools.run_graph_coloring_demo:main"
+cai-gap-profile = "reachability_labs_demo.tools.compute_gap_profile:main"
+reachability-labs-ksat-demo = "reachability_labs_demo.tools.run_ksat_demo:main"
+reachability-labs-gap-profile = "reachability_labs_demo.tools.compute_gap_profile:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

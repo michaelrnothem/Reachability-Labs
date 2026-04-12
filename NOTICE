@@ -1,0 +1,17 @@
+Reachability Labs 3-SAT Demo
+Copyright 2026 Michael R. Nothem / Reachability Labs
+https://reachabilitylabs.org
+
+This software implements the constructive accessibility measurement framing
+described in:
+
+  M.R. Nothem (2026). Constructive Accessibility from Committed Prefixes
+  in Random 3-SAT: A Kinetic Transition in Reachable Future Under Forward
+  Irreversible Construction. DOI: 10.5281/zenodo.19225548
+
+The Nothem Constructive Accessibility Protocol, the adapter contract, the
+gap-profile methodology, and the diagnostic instrumentation pattern are
+original contributions of Reachability Labs.
+
+If you use this measurement framing or build on the adapter contract,
+please cite the associated paper.
