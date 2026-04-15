@@ -1,0 +1,32 @@
+{
+  "title": "Constructive Accessibility Instrument",
+  "description": "Small public reference implementation for measuring constructive accessibility in forward processes. Ships with a flagship random 3-SAT adapter, an experimental graph-coloring adapter, and utilities for success curves, hazard profiles, variance decomposition, and existence-reachability gap profiles.",
+  "license": "Apache-2.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Nothem, Michael Richard",
+      "affiliation": "Reachability Labs"
+    }
+  ],
+  "keywords": [
+    "constructive accessibility",
+    "reachability",
+    "random 3-SAT",
+    "graph coloring",
+    "scientific software"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://reachabilitylabs.org",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.19225548",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication"
+    }
+  ]
+}
