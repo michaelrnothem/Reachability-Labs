@@ -1,0 +1,73 @@
+name: Bug report
+description: Report a defect in the measurement runtime, adapter behavior, or generated outputs.
+title: "[bug] "
+labels:
+  - bug
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for runtime defects, broken outputs, incorrect metadata, or reproducible failures.
+  - type: input
+    id: version
+    attributes:
+      label: Version / tag
+      description: "Example: v0.3.0"
+      placeholder: v0.3.0
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Runtime
+        - 3-SAT adapter
+        - Graph coloring adapter
+        - Gap profile utility
+        - Plotting / metadata
+        - Packaging / install
+        - CI / release
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the observed failure.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include exact commands, parameters, or notebook actions.
+      placeholder: |
+        1. Install package
+        2. Run cai-ksat-demo ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Relevant artifacts
+      description: Paste hashes, filenames, traceback, CSV/JSON snippet, or screenshot references.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version, OS, install mode, and anything relevant.
+      placeholder: |
+        Python 3.12
+        macOS 15 / Ubuntu 24.04
+        pip install -e .[test]
+    validations:
+      required: true
