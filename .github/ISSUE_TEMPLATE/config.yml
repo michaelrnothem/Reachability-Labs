@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Diagnostic engagement
+    url: https://reachabilitylabs.org
+    about: Use this when the request is better handled as a service engagement than a software issue.
+  - name: Software and pilot inquiry
+    url: https://reachabilitylabs.org
+    about: Use this for early access, pilot relationships, and deployment conversations.
